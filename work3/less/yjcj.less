@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        color: #a69c00;
+    }
+}
+body {
+    font-size: 12px;
+}
+.header {
+    height: 80px;
+    .head {
+        height: 80px;
+        margin: 0 auto;
+        width: 984px;
+        .logo {
+            width: 144px;
+            height: 52px;
+            padding: 14px 0;
+            float: left;
+        }
+        ul {
+            float: right;
+            position: relative;
+            li {
+                float: left;
+                padding: 46px 26px 18px;
+                &:hover {
+                    background: #007cc3;
+                }
+                &:hover a {
+                    color: #fff;
+                }
+                a {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 700px;
+                }
+            }
+            .li-1 {
+                background: #007cc3;
+            }
+            .icon {
+                width: 0;
+                border: 5px solid transparent;
+                border-top-color: #007cc3;
+                position: absolute;
+                left: 35px;
+                bottom: -10px;
+            }
+        }
+    }
+}
+.img {
+    height: 370px;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.nav {
+    width: 984px;
+    height: 110px;
+    margin: 51px auto;
+    background: url(../img/nav2.png) no-repeat;
+    background-size: 984px 108px;
+     li {
+        float: left;
+        margin-top: 80px;
+        width: 140.5px;
+        text-align: center;
+        a {
+            font-size: 16px;
+            color: #0b9aed;
+            &:hover {
+        color: #a69c00;
+    }
+        }
+    }
+}
+.conent {
+    background: url(../img/body1.png) no-repeat;
+    height: 1428px;
+    background-size: 100% 1365px;
+    .main {
+        margin: 0 auto;
+        width: 984px;
+        position: relative;
+        // .title {
+        //     position: absolute;
+        //     top: -12px;
+        //     left: 0;
+        // }
+        h3 {
+            font-size: 24px;
+            padding-top: 30px;
+            span {
+                font-size: 12px;
+                color: #0b9aed;
+                padding-left: 5px;
+                position: relative;
+                bottom: -2px;
+            }
+        }
+        .item {
+            width: 984px;
+            margin-top: 20px;
+            // background: #ffffff;
+            padding-bottom: 50px;
+            padding-top: 20px;
+            ul:after{
+                content:".";display:block;height:0;clear:both;visibility:hidden
+            }
+            ul {
+                position: relative;
+                left: -56px;
+                width: 1096px;
+                li {
+                    float: left;
+                    padding: 17px;
+                    background: #ffffff;
+                    margin: 0 56px 35px;
+                    box-shadow: 0 0  10px #c9c9c9;
+                    .img {
+                        width: 216px;
+                        height: 265px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .text{
+                        margin-top: 10px;
+                        line-height: 20px;
+                        text-align: center;
+                        span{
+                            color: #707070;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer {
+    height: 105px;
+    background: #0b9aed;
+    .info {
+        width: 981px;
+        height: 34px;
+        margin: 0 auto;
+        padding: 35px 0;
+        text-align: center;
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            a {
+                color: #fff;
+                &:hover {
+        color: #a69c00;
+    }
+            }
+        }
+    }
+}

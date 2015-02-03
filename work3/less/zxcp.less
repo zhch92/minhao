@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        color: #a69c00;
+    }
+}
+body {
+    font-size: 12px;
+}
+.header {
+    height: 80px;
+    .head {
+        height: 80px;
+        margin: 0 auto;
+        width: 984px;
+        .logo {
+            width: 144px;
+            height: 52px;
+            padding: 14px 0;
+            float: left;
+        }
+        ul {
+            float: right;
+            position: relative;
+            li {
+                float: left;
+                padding: 46px 26px 18px;
+                &:hover {
+                    background: #007cc3;
+                }
+                &:hover a {
+                    color: #fff;
+                }
+                a {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 700px;
+                }
+            }
+            .li-1 {
+                background: #007cc3;
+            }
+            .icon {
+                width: 0;
+                border: 5px solid transparent;
+                border-top-color: #007cc3;
+                position: absolute;
+                left: 35px;
+                bottom: -10px;
+            }
+        }
+    }
+}
+.img {
+    height: 370px;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.nav {
+    width: 984px;
+    height: 110px;
+    margin: 51px auto;
+    background: url(../img/nav2.png) no-repeat;
+    background-size: 984px 108px;
+     li {
+        float: left;
+        margin-top: 80px;
+        width: 140.5px;
+        text-align: center;
+        a {
+            font-size: 16px;
+            color: #0b9aed;
+            &:hover {
+        color: #a69c00;
+    }
+        }
+    }
+}
+.conent {
+    background: url(../img/body1.png) no-repeat;
+    height: 1280px;
+    background-size: 100% 1365px;
+    .main {
+        margin: 0 auto;
+        width: 984px;
+        position: relative;
+        .title {
+            position: absolute;
+            top: -14px;
+            left: 0;
+            color: #4d4c4c;
+        }
+        h3 {
+            font-size: 24px;
+            padding-top: 30px;
+            span {
+                font-size: 12px;
+                color: #0b9aed;
+                padding-left: 5px;
+                position: relative;
+                bottom: -2px;
+            }
+        }
+        .item {
+            width: 908px;
+            padding: 20px 38px 50px;
+            margin-top: 20px;
+            background: #ffffff;
+            ul:after{
+                content:".";display:block;height:0;clear:both;visibility:hidden
+            }
+            ul {
+                position: relative;
+                left: -18px;
+                width: 944px;
+                li {
+                    float: left;
+                    margin: 0 18px 35px;
+                    .img {
+                        width: 198px;
+                        height: 233px;
+                        border: 1px solid #939393;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .text {
+                        margin-top: 10px;
+                        line-height: 20px;
+                        text-align: center;
+                        span {
+                            color: #707070;
+                        }
+                    }
+                }
+            }
+        
+        .number {
+            // margin-right: 15px;
+            clear: both;
+            height: 20px;
+            margin-top: 60px;
+            text-align: right;
+            padding-left: 415px;
+            a {
+                float: left;
+                width: 19px;
+                height: 19px;
+                display: block;
+                line-height: 20px;
+                border: 1px solid #c1bfbf;
+                text-align: center;
+                margin-right: 5px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        }
+    }
+}
+.footer {
+    height: 105px;
+    background: #0b9aed;
+    .info {
+        width: 981px;
+        height: 34px;
+        margin: 0 auto;
+        padding: 35px 0;
+        text-align: center;
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            a {
+                color: #fff;
+                &:hover {
+        color: #a69c00;
+    }
+            }
+        }
+    }
+}
